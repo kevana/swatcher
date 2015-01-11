@@ -1,0 +1,9 @@
+<div class="swatch-selector">
+  <p>This is the partial for the swatch generator.</p>
+
+  <div ng-jcrop="obj.src" selection="obj.selection" thumbnail="obj.thumbnail"></div>
+
+  <p>Selection: {{ obj.selection.toString() }}</p>
+
+  <button ng-click="exportSwatch()">Export Swatch</button>
+</div>
