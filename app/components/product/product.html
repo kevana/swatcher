@@ -1,0 +1,14 @@
+<h2>Product Template</h2>
+
+<input type="text" ng-model="searchProduct"/> <button ng-click="getProduct()">Find Product</button>
+
+<p>Product ID: {{ productId }}<br>
+	Address: {{ selectedImgSrc }}</p>
+<pre>{{ product }}</pre>
+<pre>{{ images }}</pre>
+
+
+<!--<img ng-src="{{ selectedImgSrc || '' }}">-->
+<div ng-repeat="image in images">
+	<img ng-src="{{ image.thumbUrl }}" ng-click="selectImage(image)">
+</div>

@@ -1,9 +1,9 @@
 {
-  "name": "angular-seed",
+  "name": "swatcher",
   "private": true,
   "version": "0.0.0",
-  "description": "A starter project for AngularJS",
-  "repository": "https://github.com/angular/angular-seed",
+  "description": "A tool to streamline swatch image generation",
+  "repository": "https://github.com/kevana/swatcher",
   "license": "MIT",
   "devDependencies": {
     "karma": "~0.10",
@@ -17,7 +17,7 @@
     "postinstall": "bower install",
 
     "prestart": "npm install",
-    "start": "http-server -a localhost -p 8000 -c-1",
+    "start": "http-server -a localhost -p 8000 -c-1 --cors",
 
     "pretest": "npm install",
     "test": "karma start karma.conf.js",

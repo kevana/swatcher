@@ -1,8 +1,8 @@
 {
-  "name": "angular-seed",
-  "description": "A starter project for AngularJS",
+  "name": "swatcher",
+  "description": "A tool to streamline swatch image generation",
   "version": "0.0.0",
-  "homepage": "https://github.com/angular/angular-seed",
+  "homepage": "https://github.com/kevana/swatcher",
   "license": "MIT",
   "private": true,
   "dependencies": {
